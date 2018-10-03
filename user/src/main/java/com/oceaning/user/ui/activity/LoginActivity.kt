@@ -81,7 +81,7 @@ class LoginActivity : BaseMVPActivity<LoginPresenter>(), LoginView {
         if(result){
             when(id){
                 ID_LOGIN->{
-
+                    startActivity<UserInfoActivity>()
                 }
             }
         }

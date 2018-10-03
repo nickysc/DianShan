@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
     <application
         android:name="com.oceaning.baselibrary.common.BaseApplication"
         android:allowBackup="true"
@@ -26,6 +27,7 @@
         <activity android:name="com.oceaning.user.ui.activity.RegisterActivity"/>
         <activity android:name="com.oceaning.user.ui.activity.ForgetPwdActivity"/>
         <activity android:name="com.oceaning.user.ui.activity.ResetPwdActivity"/>
+        <activity android:name="com.oceaning.user.ui.activity.UserInfoActivity"/>
     </application>
 
 </manifest>

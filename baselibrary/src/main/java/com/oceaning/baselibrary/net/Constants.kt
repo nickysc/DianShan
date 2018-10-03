@@ -4,7 +4,7 @@ package com.oceaning.baselibrary.net
  * Created by ankeranker on 2018/8/5.
  */
 //const val baseUrl="http://192.168.1.108:8080/"
-const val baseUrl="http://192.168.1.126:8080/"
+const val baseUrl="http://192.168.1.100:8080/"
 
 
 /*

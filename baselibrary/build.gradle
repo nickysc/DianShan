@@ -39,7 +39,9 @@ dependencies {
     api 'com.google.dagger:dagger:2.16'
     kapt 'com.google.dagger:dagger-compiler:2.16'
     api "com.github.bumptech.glide:glide:$gilde_version"
-
+    api 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.jph.takephoto:takephoto_library:4.0.3'
+    api 'com.bigkoo:alertview:1.0.3'
 }
 repositories {
     mavenCentral()

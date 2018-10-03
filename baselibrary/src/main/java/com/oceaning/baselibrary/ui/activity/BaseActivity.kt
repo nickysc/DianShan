@@ -12,9 +12,15 @@ abstract class BaseActivity :RxAppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(getLayoutId())
+        onCreateBefore(savedInstanceState)
         AppManager.addActivity(this)
         getIntentData(intent)
         initOperator()
+
+
+    }
+
+    open fun onCreateBefore(savedInstanceState: Bundle?) {
 
 
     }
