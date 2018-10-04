@@ -1,1 +1,1 @@
-include ':app', ':baselibrary', ':user', ':baseretrofitandrx'
+include ':app', ':baselibrary', ':user', ':baseretrofitandrx', ':msglibrary'
